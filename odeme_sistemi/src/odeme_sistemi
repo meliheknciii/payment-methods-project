@@ -1,0 +1,7 @@
+2. Ödeme Sistemi
+Amaç: Farklı ödeme yöntemlerini destekleyen bir sistem geliştirin.
+
+Açıklama:
+Bir PaymentMethod interface'i oluşturun (pay(amount: double) metodu ile).
+CreditCardPayment, PayPalPayment, BankTransferPayment gibi sınıflar bu interface'i uygulasın.
+Ödeme sistemine yeni bir yöntem eklemek için sadece yeni bir sınıf oluşturulması yeterli olacak şekilde tasarlayın.
